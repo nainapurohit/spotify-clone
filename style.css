@@ -1,0 +1,115 @@
+/* ------------------------------STRUCTURE------------------------------- */
+body {
+	background-color: black;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.body {
+	flex: 1;
+	display: grid;
+	grid-template-columns: 25% auto;
+	min-height: 0;
+	/* overflow: hidden; */
+}
+
+/* ------------------------------NAVBAR------------------------------- */
+.spotify-logo-nav {
+	padding: 6px 20px 7px 20px;
+}
+
+.install-app-button {
+	padding: 0px 20px 0px 20px;
+}
+
+/* ------------------------------SIDEBAR------------------------------- */
+.sidebar {
+	height: 100%;
+	grid-column: 1/2;
+	background-color: #141414;
+	border: 3px solid black;
+	border-radius: 7px;
+	padding: 8px;
+}
+
+.your-library {
+	padding: 5px 5px 20px 5px;
+}
+
+.more-button {
+	color: white;
+	font-size: larger;
+	border: none;
+	border-radius: 50%;
+	background-color: #282727;
+	/* padding: 2px 2px 2px 2px; */
+}
+
+.create-playlist {
+	background-color: #1f1f1f;
+	border-radius: 7px;
+	padding: 10px;
+}
+
+.left-footer {
+	padding: 30px 10px 10px 10px;
+}
+
+.left-footer a {
+	font-size: small;
+	font-weight: 400;
+	color: #b3b3b3;
+	padding: 5px 15px 5px 0px;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+.sidebar-language-button {
+	padding-top: 40px;
+}
+.language-button {
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 10px 7px 10px 7px;
+	background-color: #1f1f1f;
+	color: white;
+}
+
+/* ------------------------------MAIN CONTENT------------------------------- */
+.main-content {
+	grid-column: 2/3;
+	background: linear-gradient(to bottom, #303030, #141414, #141414, #141414);
+	border-radius: 7px;
+	border: 3px solid black;
+	padding: 10px 30px 10px 30px;
+	min-width: 0;
+	/* overflow-x: hidden; */
+	overflow-y: auto;
+	height: 100%;
+}
+
+.card {
+	flex: 0 0 auto;
+	height: 275px;
+	width: 177px;
+}
+
+.card-image {
+	height: 150px;
+	width: 150px;
+	border-radius: 7px;
+	display: block;
+	margin: 5px auto;
+}
+
+.popular-artists-cards .card {
+	height: 231px;
+}
+
+.circular-card-image {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	display: block;
+	margin: 5px auto;
+}

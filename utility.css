@@ -1,0 +1,98 @@
+/* ------------------------FLEX--------------------------- */
+
+.flex-horizontal {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/* flex-wrap: wrap; */
+}
+
+.flex-vertical {
+	display: flex;
+	flex-direction: column;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.justify-content-left {
+	justify-content: left;
+}
+
+.horizontal-scroll {
+	overflow-x: auto;
+	overflow-y: hidden;
+	width: 100%;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+	display: none;
+}
+
+/* -------------------------SVGs, Icons------------------------- */
+svg {
+	fill: white;
+}
+
+.icons {
+	height: 30px;
+	width: 30px;
+	padding: 10px;
+}
+
+/* ------------------------Buttons--------------------------- */
+.text-button {
+	background: none;
+	border: none;
+	font-size: medium;
+	font-weight: 600;
+	color: #b3b3b3;
+}
+
+.contrast-button {
+	background-color: white;
+	border: 0px solid black;
+	border-radius: 25px;
+	font-size: medium;
+	font-weight: 600;
+	padding: 15px 30px 15px 30px;
+}
+
+/* ------------------------HEADINGS--------------------------- */
+h1 {
+	font-size: x-large;
+	letter-spacing: -0.1px;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: medium;
+	font-weight: 700;
+}
+
+p {
+	font-size: small;
+	font-weight: 400;
+}
+
+.divider {
+	font-size: large;
+	color: #b3b3b3;
+	font-weight: 600;
+}
+
+/* ------------------------FLEX--------------------------- */
+/* ------------------------FLEX--------------------------- */
+@media (max-width: 767px) {
+	.help-buttons {
+		display: none;
+	}
+}
+
+@media (max-width: 490px) {
+	.help-buttons,
+	.install-button-nav {
+		display: none;
+	}
+}
