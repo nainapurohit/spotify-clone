@@ -1,0 +1,58 @@
+[
+	{
+		"class": "card trending-card1",
+		"image": "resources/trending-songs/1.jpeg",
+		"heading": "Bipolar",
+		"artist": "Navaan Sandhu",
+		"song": "resources/songs/1.mp3"
+	},
+	{
+		"class": "card trending-card2",
+		"image": "resources/trending-songs/2.jpeg",
+		"heading": "Sadi Sun",
+		"artist": "Harsh Nussi",
+		"song": "resources/songs/2.mp3"
+	},
+	{
+		"class": "card trending-card3",
+		"image": "resources/trending-songs/3.jpeg",
+		"heading": "Aarzu",
+		"artist": "Asim Azhar, Noor, Khan",
+		"song": "resources/songs/3.mp3"
+	},
+	{
+		"class": "card trending-card8",
+		"image": "resources/trending-songs/4.jpeg",
+		"heading": "Ghaghra",
+		"artist": "Pritam",
+		"song": "resources/songs/4.mp3"
+	},
+	{
+		"class": "card trending-card5",
+		"image": "resources/trending-songs/5.jpeg",
+		"heading": "O Sanam",
+		"artist": "Akhil Sachdeva",
+		"song": "resources/songs/5.mp3"
+	},
+	{
+		"class": "card trending-card6",
+		"image": "resources/trending-songs/6.jpeg",
+		"heading": "Admiring You",
+		"artist": "Karan Aujla",
+		"song": "resources/songs/6.mp3"
+	},
+	{
+		"class": "card trending-card7",
+		"image": "resources/trending-songs/7.jpeg",
+		"heading": "Driver's License",
+		"artist": "Olivia Rodrigo",
+		"song": "resources/songs/7.mp3"
+	},
+	{
+		"class": "card trending-card8",
+		"image": "resources/trending-songs/8.jpeg",
+		"heading": "Heat Waves",
+		"artist": "Glass Animals",
+		"song": "resources/songs/8.mp3"
+	}
+]

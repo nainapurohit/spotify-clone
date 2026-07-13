@@ -11,12 +11,13 @@
 		<link
 			href="utility.css"
 			rel="stylesheet" />
-		<title>Document</title>
+		<title>Spotify - A Landing Clone</title>
 	</head>
 	<body>
 		<div
 			class="page flex-vertical"
 			style="margin: 0; height: 100vh">
+			<!-- ----------------------------------Navbar----------------------------------- -->
 			<nav class="navbar flex-horizontal space-between">
 				<div class="nav-logo nav-left flex-horizontal">
 					<svg
@@ -107,6 +108,7 @@
 				</div>
 			</nav>
 			<section class="body">
+				<!-- ----------------------------------Sidebar----------------------------------- -->
 				<div class="sidebar flex-vertical">
 					<div class="your-library flex-horizontal space-between">
 						<h2>Your Library</h2>
@@ -135,7 +137,7 @@
 							<a href="">About ads</a>
 							<a href="">Accessibility</a>
 						</div>
-						<div class="cookies">
+						<div class="cookies bottom-links">
 							<a style="color: white">Cookies</a>
 						</div>
 						<div class="sidebar-language-button">
@@ -147,189 +149,84 @@
 						</div>
 					</div>
 				</div>
+				<!-- ----------------------------main content------------------------------------- -->
 				<div class="main-content">
+					<!-- ----------------------------------trending songs----------------------------------- -->
 					<div class="trending-songs flex-vertical">
 						<div class="trending-songs-heading"><h1>Trending songs</h1></div>
 						<div class="trending-songs-cards flex-horizontal horizontal-scroll">
-							<div class="card trending-card1">
+							<!-- MANUAL CARD:
+							 <div class="card trending-card1">
 								<img
 									class="card-image"
 									src="resources/trending-songs/1.jpeg" />
-								<h3></h3>
-								<p></p>
+								<button
+									type="button"
+									class="play-button"
+									src="resources/songs/2.mp3">
+									▶
+								</button>
+								<h3>Something</h3>
+								<p>Artist name</p>
+							</div> -->
+						</div>
+
+						<!-- ----------------------------------Popular artists----------------------------------- -->
+						<div class="popular-artists flex-vertical">
+							<h1>Popular Artists</h1>
+							<div
+								class="popular-artists-cards flex-horizontal horizontal-scroll">
+								<!-- MANUAL:
+								 <div class="card popular-artist-card1">
+									<img
+										class="circular-card-image"
+										src="resources/artists/1.jpeg" />
+									<h2></h2>
+									<h3>Artist</h3>
+								</div> -->
 							</div>
-							<div class="card trending-card2">
-								<img
-									class="card-image"
-									src="resources/trending-songs/2.jpeg" />
-								<h3></h3>
-								<p></p>
-							</div>
-							<div class="card trending-card3">
-								<img
-									class="card-image"
-									src="resources/trending-songs/3.jpeg" />
-								<h3></h3>
-								<p></p>
-							</div>
-							<div class="card trending-card4">
-								<img
-									class="card-image"
-									src="resources/trending-songs/4.jpeg" />
-								<h3></h3>
-								<p></p>
-							</div>
-							<div class="card trending-card5">
-								<img
-									class="card-image"
-									src="resources/trending-songs/5.jpeg" />
-								<h3></h3>
-								<p></p>
-							</div>
-							<div class="card trending-card6">
-								<img
-									class="card-image"
-									src="resources/trending-songs/6.jpeg" />
-								<h3></h3>
-								<p></p>
-							</div>
-							<div class="card trending-card7">
-								<img
-									class="card-image"
-									src="resources/trending-songs/7.jpeg" />
-								<h3></h3>
-								<p></p>
-							</div>
-							<div class="card trending-card8">
-								<img
-									class="card-image"
-									src="resources/trending-songs/8.jpeg" />
-								<h3></h3>
-								<p></p>
+						</div>
+
+						<!-- ----------------------------------Popular radio----------------------------------- -->
+						<div class="popular-radio flex-vertical">
+							<div class="popular-radio-heading"><h1>Popular raido</h1></div>
+							<div
+								class="popular-radio-cards flex-horizontal horizontal-scroll">
+								<!-- MANUAL CARD:
+								 <div class="card popular-radio-card1">
+									<img
+										class="card-image"
+										src="resources/radio/1.jpeg" />
+									<h3></h3>
+									<p></p>
+								</div> -->
 							</div>
 						</div>
 					</div>
-					<div class="popular-artists flex-vertical">
-						<h1>Popular Artists</h1>
-						<div
-							class="popular-artists-cards flex-horizontal horizontal-scroll">
-							<div class="card popular-artist-card1">
-								<img
-									class="circular-card-image"
-									src="resources/artists/1.jpeg" />
-								<h2></h2>
-								<h3>Artist</h3>
-							</div>
-							<div class="card popular-artist-card2">
-								<img
-									class="circular-card-image"
-									src="resources/artists/2.jpeg" />
-								<h2></h2>
-								<h3>Artist</h3>
-							</div>
-							<div class="card popular-artist-card3">
-								<img
-									class="circular-card-image"
-									src="resources/artists/3.jpeg" />
-								<h2></h2>
-								<h3>Artist</h3>
-							</div>
-							<div class="card popular-artist-card4">
-								<img
-									class="circular-card-image"
-									src="resources/artists/4.jpeg" />
-								<h2></h2>
-								<h3>Artist</h3>
-							</div>
-							<div class="card popular-artist-card5">
-								<img
-									class="circular-card-image"
-									src="resources/artists/5.jpeg" />
-								<h2></h2>
-								<h3>Artist</h3>
-							</div>
-							<div class="card popular-artist-card6">
-								<img
-									class="circular-card-image"
-									src="resources/artists/6.jpeg" />
-								<h2></h2>
-								<h3>Artist</h3>
-							</div>
-							<div class="card popular-artist-card7">
-								<img
-									class="circular-card-image"
-									src="resources/artists/7.jpeg" />
-								<h2></h2>
-								<h3>Artist</h3>
-							</div>
-							<div class="card popular-artist-card8">
-								<img
-									class="circular-card-image"
-									src="resources/artists/8.jpeg" />
-								<h2></h2>
-								<h3>Artist</h3>
-							</div>
+					<hr class="section-divider" />
+					<div class="flex-horizontal right-footer">
+						<div class="bottom-links company-links flex-vertical">
+							<h3>Company</h3>
+							<a>About</a>
+							<a>Jobs</a>
+							<a>For the Record</a>
 						</div>
-					</div>
-					<div class="popular-radio flex-vertical">
-						<div class="popular-radio-heading"><h1>Popular raido</h1></div>
-						<div class="popular-radio-cards flex-horizontal horizontal-scroll">
-							<div class="card popular-radio-card1">
-								<img
-									class="card-image"
-									src="resources/radio/1.jpeg" />
-								<h3></h3>
-								<p></p>
-							</div>
-							<div class="card popular-radio-card1">
-								<img
-									class="card-image"
-									src="resources/radio/2.jpeg" />
-								<h3></h3>
-								<p></p>
-							</div>
-							<div class="card popular-radio-card1">
-								<img
-									class="card-image"
-									src="resources/radio/3.jpeg" />
-								<h3></h3>
-								<p></p>
-							</div>
-							<div class="card popular-radio-card1">
-								<img
-									class="card-image"
-									src="resources/radio/4.jpeg" />
-								<h3></h3>
-								<p></p>
-							</div>
-							<div class="card popular-radio-card1">
-								<img
-									class="card-image"
-									src="resources/radio/5.jpeg" />
-								<h3></h3>
-								<p></p>
-							</div>
-							<div class="card popular-radio-card1">
-								<img
-									class="card-image"
-									src="resources/radio/6.jpeg" />
-								<h3></h3>
-								<p></p>
-							</div>
-							<div class="card popular-radio-card1">
-								<img
-									class="card-image"
-									src="resources/radio/7.jpeg" />
-								<h3></h3>
-								<p></p>
-							</div>
-							<div class="card popular-radio-card1">
-								<img
-									class="card-image"
-									src="resources/radio/8.jpeg" />
-								<h3></h3>
-								<p></p>
-							</div>
+						<div class="bottom-links communities-links flex-vertical">
+							<h3>Communities</h3>
+							<a>For Artists</a>
+							<a>Developers</a>
+							<a>Advertising</a>
+							<a>Investors</a>
+							<a>Vendors</a>
+							<a></a>
+						</div>
+						<div class="bottom-links useful-links flex-vertical">
+							<h3>Useful links</h3>
+							<a>Support</a>
+							<a>Free Mobile App</a>
+							<a>Popular by Country</a>
+							<a>Top Song Lyrics</a>
+							<a href="">Komal</a>
 						</div>
 					</div>
 				</div>

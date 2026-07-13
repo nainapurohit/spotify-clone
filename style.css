@@ -21,6 +21,9 @@ body {
 .install-app-button {
 	padding: 0px 20px 0px 20px;
 }
+.nav-right .text-button:hover {
+	color: white;
+}
 
 /* ------------------------------SIDEBAR------------------------------- */
 .sidebar {
@@ -55,7 +58,7 @@ body {
 	padding: 30px 10px 10px 10px;
 }
 
-.left-footer a {
+.bottom-links a {
 	font-size: small;
 	font-weight: 400;
 	color: #b3b3b3;
@@ -90,8 +93,21 @@ body {
 
 .card {
 	flex: 0 0 auto;
-	height: 275px;
+	height: 250px;
 	width: 177px;
+	border-radius: 7px;
+	background-color: inherit;
+	transition: background-color 0.3s ease;
+	position: relative;
+}
+
+.card:hover {
+	background-color: #414040;
+}
+
+.card:hover .play-button {
+	opacity: 1;
+	transform: translateY(0px);
 }
 
 .card-image {
@@ -99,7 +115,21 @@ body {
 	width: 150px;
 	border-radius: 7px;
 	display: block;
-	margin: 5px auto;
+	margin: 10px auto;
+}
+
+.play-button {
+	font-size: larger;
+	background-color: rgb(47, 230, 47);
+	padding: 13px 16px;
+	border-radius: 50%;
+	border: none;
+	position: absolute;
+	right: 22px;
+	bottom: 100px;
+	opacity: 0;
+	transform: translateY(10px);
+	transition: all 0.3s ease;
 }
 
 .popular-artists-cards .card {
@@ -111,5 +141,38 @@ body {
 	width: 150px;
 	border-radius: 50%;
 	display: block;
-	margin: 5px auto;
+	margin: 10px auto;
+}
+
+h3 {
+	padding-left: 15px;
+	line-height: 10px;
+}
+
+.card p {
+	padding-left: 15px;
+}
+
+.section-divider {
+	/* color: #414040; */
+	opacity: 0.5;
+	margin-top: 10vh;
+}
+
+.right-footer {
+	/* margin: 20px; */
+	align-items: flex-start !important;
+	gap: 40px;
+}
+
+.right-footer .bottom-links a {
+	font-size: medium;
+	line-height: 15px;
+}
+.right-footer .bottom-links h3 {
+	padding-left: 0px;
+}
+
+.bottom-links a:hover {
+	color: white;
 }

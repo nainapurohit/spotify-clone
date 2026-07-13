@@ -59,11 +59,16 @@ svg {
 	padding: 15px 30px 15px 30px;
 }
 
+.contrast-button:hover {
+	background-color: #b3b3b3;
+}
+
 /* ------------------------HEADINGS--------------------------- */
 h1 {
 	font-size: x-large;
 	letter-spacing: -0.1px;
 	font-weight: 800;
+	padding-top: 20px;
 }
 
 h2 {
@@ -82,8 +87,7 @@ p {
 	font-weight: 600;
 }
 
-/* ------------------------FLEX--------------------------- */
-/* ------------------------FLEX--------------------------- */
+/* ------------------------MEDIA--------------------------- */
 @media (max-width: 767px) {
 	.help-buttons {
 		display: none;
