@@ -6,6 +6,13 @@ A responsive Spotify-inspired web application built to strengthen front-end deve
 
 ---
 
+## Live Demo
+
+Check out the project here:
+https://spotify-clone-three-beta.vercel.app/
+
+---
+
 ### ✅ Currently Implemented
 
 - Spotify-inspired landing page
@@ -64,6 +71,7 @@ This project was built to practice and improve:
 - [x] Playback controls
 - [ ] Mobile optimization
 - [ ] Final polish
+- [x] Deployment (Vercel)
 
 ---
 
