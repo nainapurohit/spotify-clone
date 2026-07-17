@@ -2,30 +2,26 @@
 
 A responsive Spotify-inspired web application built to strengthen front-end development skills by recreating Spotify's user interface. This project focuses on writing clean HTML, modern CSS, responsive layouts, and progressively adding JavaScript-powered interactivity.
 
-> Status: 🚧 In Progress
+> Status: Functional Prototype — Core audio player features implemented
 
 ---
 
 ### ✅ Currently Implemented
 
-- Responsive Spotify-inspired landing page
+- Spotify-inspired landing page
 - Sidebar navigation
 - Top navigation bar
-- Trending Songs section
-- Popular Artists section
-- Horizontally scrollable music cards
+- Multiple sections with horizontally scrollable music cards
 - Modern layout using CSS Grid and Flexbox
+- Sticky media player
+- Play/pause toggle with button text switching
+- Dynamic progress bar (updates with current time)
+- Volume control slider
+- Next/previous song switching
+- JSON-based music data rendering (Trending Songs, Artists, Radio)
 
 ### 🚀 Planned Features
 
-- [ ] Sticky media player
-- [ ] Functional play/pause controls
-- [ ] Dynamic progress bar
-- [ ] Volume control
-- [ ] Song switching
-- [ ] Playlist creation and management
-- [ ] JSON-based music data rendering
-- [ ] Improved animations and hover effects
 - [ ] Fully responsive mobile and tablet layouts
 
 ---
@@ -37,24 +33,8 @@ A responsive Spotify-inspired web application built to strengthen front-end deve
   - Flexbox
   - CSS Grid
   - Responsive Design
-- JavaScript (Vanilla) _(Upcoming)_
-
----
-
-## 📂 Project Structure
-
-spotify-clone/
-│
-├── index.html
-├── css/
-│ └── style.css
-├── js/
-│ └── script.js
-├── assets/
-│ ├── images/
-│ ├── icons/
-│ └── fonts/
-└── README.md
+- JavaScript (Vanilla)
+- Audio API (Audio() object)
 
 ---
 
@@ -78,11 +58,10 @@ This project was built to practice and improve:
 - [x] Landing page UI
 - [x] Responsive card layout
 - [x] Horizontal scrolling sections
-- [ ] JSON music database
-- [ ] Dynamic rendering
-- [ ] Audio player
-- [ ] Playback controls
-- [ ] Playlist management
+- [x] JSON music database
+- [x] Dynamic rendering
+- [x] Audio player
+- [x] Playback controls
 - [ ] Mobile optimization
 - [ ] Final polish
 

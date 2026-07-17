@@ -153,7 +153,11 @@
 				<div class="main-content">
 					<!-- ----------------------------------trending songs----------------------------------- -->
 					<div class="trending-songs flex-vertical">
-						<div class="trending-songs-heading"><h1>Trending songs</h1></div>
+						<div
+							class="trending-songs-heading"
+							style="padding-top: 0px; line-height: 15px">
+							<h1>Trending songs</h1>
+						</div>
 						<div class="trending-songs-cards flex-horizontal horizontal-scroll">
 							<!-- MANUAL CARD:
 							 <div class="card trending-card1">
@@ -231,7 +235,50 @@
 					</div>
 				</div>
 			</section>
+			<div class="playbar flex-horizontal">
+				<div class="playbar-details flex-horizontal">
+					<img
+						class="playbar-thumbnail"
+						src="resources/thumbnail-default.png" />
+					<div
+						class="thumbnail-name flex-vertical"
+						style="align-self: flex-end">
+						<h2 class="playbar-song-name"></h2>
+						<p class="playbar-artist-name"></p>
+					</div>
+				</div>
+				<div
+					class="playbar-functions flex-vertical"
+					style="align-items: center">
+					<div class="playbar-buttons flex-horizontal">
+						<button class="playbar-prev-button playbar-button">≪</button>
+						<button class="playbar-pause-button playbar-button">▶</button>
+						<button class="playbar-next-button playbar-button">≫</button>
+						<!-- ∥ -->
+					</div>
+					<div class="progress-bar-container">
+						<input
+							class="prog-bar"
+							type="range"
+							min="0"
+							max="1"
+							step="0.01" />
+					</div>
+				</div>
+				<div
+					class="playbar-volume flex-vertical"
+					style="align-items: center">
+					<p>Volume 🔊</p>
+					<input
+						class="vol-bar"
+						type="range"
+						min="0"
+						max="1"
+						step="0.01" />
+				</div>
+			</div>
 		</div>
+
 		<script src="script.js"></script>
 	</body>
 </html>

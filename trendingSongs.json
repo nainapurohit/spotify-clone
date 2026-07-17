@@ -1,13 +1,15 @@
 [
 	{
 		"class": "card trending-card1",
-		"image": "resources/trending-songs/1.jpeg",
-		"heading": "Bipolar",
-		"artist": "Navaan Sandhu",
+		"id": "1",
+		"image": "resources/trending-songs/1.jpg",
+		"heading": "Bairan",
+		"artist": "Banjaare",
 		"song": "resources/songs/1.mp3"
 	},
 	{
 		"class": "card trending-card2",
+		"id": "2",
 		"image": "resources/trending-songs/2.jpeg",
 		"heading": "Sadi Sun",
 		"artist": "Harsh Nussi",
@@ -15,13 +17,15 @@
 	},
 	{
 		"class": "card trending-card3",
+		"id": "3",
 		"image": "resources/trending-songs/3.jpeg",
 		"heading": "Aarzu",
 		"artist": "Asim Azhar, Noor, Khan",
 		"song": "resources/songs/3.mp3"
 	},
 	{
-		"class": "card trending-card8",
+		"class": "card trending-card4",
+		"id": "4",
 		"image": "resources/trending-songs/4.jpeg",
 		"heading": "Ghaghra",
 		"artist": "Pritam",
@@ -29,6 +33,7 @@
 	},
 	{
 		"class": "card trending-card5",
+		"id": "5",
 		"image": "resources/trending-songs/5.jpeg",
 		"heading": "O Sanam",
 		"artist": "Akhil Sachdeva",
@@ -36,6 +41,7 @@
 	},
 	{
 		"class": "card trending-card6",
+		"id": "6",
 		"image": "resources/trending-songs/6.jpeg",
 		"heading": "Admiring You",
 		"artist": "Karan Aujla",
@@ -43,6 +49,7 @@
 	},
 	{
 		"class": "card trending-card7",
+		"id": "7",
 		"image": "resources/trending-songs/7.jpeg",
 		"heading": "Driver's License",
 		"artist": "Olivia Rodrigo",
@@ -50,6 +57,7 @@
 	},
 	{
 		"class": "card trending-card8",
+		"id": "8",
 		"image": "resources/trending-songs/8.jpeg",
 		"heading": "Heat Waves",
 		"artist": "Glass Animals",
